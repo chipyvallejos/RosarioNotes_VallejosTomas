@@ -51,7 +51,7 @@ body {
 .grid-container {
   display: grid;
   gap: 0px;
-  grid-template: "header" 150px "navbar" 3px "main" auto "sidebar" 300px "footer" 100px; }
+  grid-template: "header" 150px "navbar" 3px "main" auto "sidebar" 350px "footer" 100px; }
 
 .titulo {
   color: #FF4E00; }
