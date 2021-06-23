@@ -51,7 +51,7 @@ body {
 .grid-container {
   display: grid;
   gap: 0px;
-  grid-template: "header" 150px "navbar" 3px "main" auto "sidebar" 350px "footer" 100px; }
+  grid-template: "header" 150px "navbar" 3px "main" auto "sidebar" 400px "footer" 100px; }
 
 .titulo {
   color: #FF4E00; }
@@ -104,7 +104,9 @@ footer {
   background-color: #F4A261; }
 
 .card {
-  background-color: #E9C46A; }
+  background-color: #E9C46A;
+  justify-content: center;
+  align-self: center; }
 
 .card-link {
   color: #2E382E; }
@@ -175,6 +177,13 @@ li {
   position: relative;
   font-size: 20px;
   color: black; }
+
+.colorBoton {
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #FF4E00; }
 
 /* Formulario de Contacto. */
 form {

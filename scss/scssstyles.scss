@@ -66,7 +66,7 @@ body {
 .grid-container {
     display: grid;
     gap: 0px;
-    grid-template: "header"150px "navbar"3px "main"auto "sidebar"350px "footer"100px;
+    grid-template: "header"150px "navbar"3px "main"auto "sidebar"400px "footer"100px;
 }
 
 .titulo {
@@ -135,6 +135,8 @@ footer {
 
 .card {
     background-color: $naranja1;
+    justify-content: center;
+    align-self: center;
 }
 
 .card-link {
@@ -221,6 +223,14 @@ li {
     position: relative;
     font-size: 20px;
     color: black;
+}
+
+.colorBoton {
+    width: $anchoboton * 3;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: $naranja2;
 }
 
 /* Formulario de Contacto. */
